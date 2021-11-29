@@ -15,7 +15,8 @@ int main(){
 			j=j+1;
 		}
 		i++;
-		printf("%d\n",l);
+		//Aqui tienes que formatear el Character con %c
+		printf("%c\n",l);
 	}
 	printf("\nLa cantidad de letras 'A' o 'a' es: %d",j);
 	return 0;
